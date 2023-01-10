@@ -1,9 +1,9 @@
 import React from "react";
-import Header from "./header";
+import Header2 from "./header";
 
 const App = () => {
     return <div className="container">
-        <Header message = "Naming hakhcontests" />
+        <Header2 message = "Naming 2contests" />
         </div>;
 }
 

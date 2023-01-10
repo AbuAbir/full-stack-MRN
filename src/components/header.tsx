@@ -1,6 +1,6 @@
 import React from "react";
 
-const Header = ({message} : {message: string} ) => {
+const Header2 = ({message} : {message: string} ) => {
     return <div className="header">{ message }</div>;
 }
-export default Header;
+export default Header2;

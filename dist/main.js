@@ -86,7 +86,7 @@ eval("\n\nif (false) {} else {\n  module.exports = __webpack_require__(/*! ./cjs
   \********************************/
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
-eval("\nvar __importDefault = (this && this.__importDefault) || function (mod) {\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\n};\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\nconst react_1 = __importDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\nconst header_1 = __importDefault(__webpack_require__(/*! ./header */ \"./src/components/header.tsx\"));\nconst App = () => {\n    return react_1.default.createElement(\"div\", { className: \"container\" },\n        react_1.default.createElement(header_1.default, { message: \"Naming hakhcontests\" }));\n};\nexports[\"default\"] = App;\n\n\n//# sourceURL=webpack://full-stack-mrn/./src/components/app.tsx?");
+eval("\nvar __importDefault = (this && this.__importDefault) || function (mod) {\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\n};\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\nconst react_1 = __importDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\nconst header_1 = __importDefault(__webpack_require__(/*! ./header */ \"./src/components/header.tsx\"));\nconst App = () => {\n    return react_1.default.createElement(\"div\", { className: \"container\" },\n        react_1.default.createElement(header_1.default, { message: \"Naming 2contests\" }));\n};\nexports[\"default\"] = App;\n\n\n//# sourceURL=webpack://full-stack-mrn/./src/components/app.tsx?");
 
 /***/ }),
 
@@ -96,7 +96,7 @@ eval("\nvar __importDefault = (this && this.__importDefault) || function (mod) {
   \***********************************/
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
-eval("\nvar __importDefault = (this && this.__importDefault) || function (mod) {\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\n};\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\nconst react_1 = __importDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\nconst Header = ({ message }) => {\n    return react_1.default.createElement(\"div\", { className: \"header\" }, message);\n};\nexports[\"default\"] = Header;\n\n\n//# sourceURL=webpack://full-stack-mrn/./src/components/header.tsx?");
+eval("\nvar __importDefault = (this && this.__importDefault) || function (mod) {\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\n};\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\nconst react_1 = __importDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\nconst Header2 = ({ message }) => {\n    return react_1.default.createElement(\"div\", { className: \"header\" }, message);\n};\nexports[\"default\"] = Header2;\n\n\n//# sourceURL=webpack://full-stack-mrn/./src/components/header.tsx?");
 
 /***/ }),
 
